@@ -216,9 +216,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Cart state
   const cart = {
-    cleanser: { name: "Daily Gel Cleanser", price: 20, count: 1, thumb: "p1", volume: "150ml" },
-    essence: { name: "Balancing Essence", price: 28, count: 1, thumb: "p2", volume: "120ml" },
-    drops: { name: "Glow Drops", price: 32, count: 1, thumb: "p3", volume: "30ml" }
+    cleanser: { name: "Daily Gel Cleanser", price: 20, count: 1, thumb: "assets/product-cleanser.webp", volume: "150ml" },
+    essence: { name: "Balancing Essence", price: 28, count: 1, thumb: "assets/product-essence.webp", volume: "120ml" },
+    drops: { name: "Glow Drops", price: 32, count: 1, thumb: "assets/product-drops.webp", volume: "30ml" }
   };
 
   function updateCartUI() {
@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', () => {
         totalPrice += item.price * item.count;
         html += `
           <div class="cart-item" data-id="${key}">
-            <div class="cart-thumb ${item.thumb}"></div>
+            <img src="${item.thumb}" alt="${item.name}" class="cart-thumb-img">
             <div class="cart-item-info">
               <h4>${item.name} (${item.count})</h4>
               <span>${item.volume} · $${item.price * item.count}</span>

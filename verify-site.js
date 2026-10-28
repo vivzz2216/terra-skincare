@@ -29,6 +29,9 @@ const requiredFiles = [
   'assets/campaign.webp',
   'assets/morning.webp',
   'assets/products.webp',
+  'assets/product-cleanser.webp',
+  'assets/product-essence.webp',
+  'assets/product-drops.webp',
   'assets/js/motion.min.js'
 ];
 
@@ -106,3 +109,4 @@ assert(css.includes('@media (max-width: 768px)'), 'Has mobile breakpoint');
 
 console.log(`\nVerification Complete: ${passed} passed, ${errors} failed.\n`);
 if (errors > 0) process.exit(1);
+
