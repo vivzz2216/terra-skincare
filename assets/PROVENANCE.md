@@ -6,3 +6,5 @@ campaign.webp: Reference-led skincare campaign photograph, lavender backdrop, ye
 products.webp: Three equal-width catalog panels, warm ivory background. Yellow Daily Gel Cleanser, lavender Balancing Essence, yellow Glow Drops. Terra labels, soft shadows and bubbles. No headings or prices in image.
 
 morning.webp: Editorial skincare lifestyle portrait. Smiling young adult woman with medium brown skin, natural texture and freckles, dark curly hair, gently applying cream to cheek. Warm morning window light, cream bathroom and lavender towel. No words or graphics.
+
+- terra-editorial.webp: AI-generated editorial product still life created for the October 2026 redesign; concept packaging, not product photography.
